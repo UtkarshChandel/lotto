@@ -1,0 +1,16 @@
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Ball from "./Ball";
+import Lottery from "./Lottery";
+
+function App() {
+  return (
+    <div className="App">
+      <Lottery />
+      <Lottery title="Mini Daily"/>
+    </div>
+  );
+}
+
+export default App;
